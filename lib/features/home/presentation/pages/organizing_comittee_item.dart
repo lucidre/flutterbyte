@@ -6,7 +6,7 @@ class OrganizingCommitteeItem extends StatelessWidget {
   const OrganizingCommitteeItem(this.model, {super.key});
 
   @override
-  Widget build(BuildContext context) {x
+  Widget build(BuildContext context) {
     return Column(
       children: [
         Expanded(child: buildImage().fadeInAndMoveFromBottom()),
